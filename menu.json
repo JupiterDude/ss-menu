@@ -1,0 +1,18 @@
+{
+ "text": "COMMANDS",
+ "type": "command",
+ "desc": "desc",
+ "Commands": [
+  {
+   "text": "git_checkcpoint",
+   "type": "choice",
+   "desc": "git add . && git commit -m \"%\" && git push <branch>",
+   "value": "git add . && git commit -m \"%\" && git push origin `git branch | grep \\* | cut -d ' ' -f2`",
+   "Choices": [
+    {
+     "text": "Checkpoint"
+    }
+   ]
+  }
+ ]
+}
